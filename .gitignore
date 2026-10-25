@@ -1,0 +1,16 @@
+# build output
+bin/
+src/obj/
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.log
+
+# made by build.bat from the .hlsl files
+src/core/*_cs.h
+
+# NVIDIA and AMD SDKs: get them from the vendors (see README)
+third_party/
